@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+
+html {
+    background-color: #333333;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 949px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#not_found {
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+#scarecrow {
+    height: 238.00001525878906px;
+    width: 286.829833984375px;
+    left: 44px;
+    top: 109px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 11.73%;
+    right: 11.78%;
+    top: 11.49%;
+    bottom: 63.44%;
+}
+
+#i_have {
+    /* I have bad news for you */
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 360px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    /* Gray 1 */
+    color: #333333;
+}
+
+#explain {
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+#buton {
+    /* Rectangle 71 */
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    /* Gray 1 */
+    background: #333333;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#created_by {
+    /* created by username - devChallenges.io */
+    position: absolute;
+    width: 350px;
+    height: 17px;
+    left: 17px;
+    top: 908px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        width: 1425px;
+        height: 1000px;
+    }
+    #not_found {
+        left: 77px;
+        top: 20px;
+    }
+    #scarecrow {
+        left: 5.35%;
+        right: 57.21%;
+        top: 24.54%;
+        bottom: 34.03%;
+    }
+    #i_have {
+        width: 586px;
+        height: 190px;
+        left: 735px;
+        top: 265px;
+
+        font-size: 48px;
+        line-height: 71px;
+    }
+    #explain {
+        width: 381px;
+        height: 108px;
+        left: 736px;
+        top: 491px;
+
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #buton {
+        width: 216px;
+        height: 68px;
+        left: 740px;
+        top: 663px;
+    }
+    #created_by {
+        left: 577px;
+        bottom: 40px;
+    }
+}
