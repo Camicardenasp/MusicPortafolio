@@ -1,0 +1,183 @@
+html {
+	background-color: #333333;
+	min-width: 375px;
+}
+body {
+	background: #FFFFFF;
+	box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+header {	
+	background: #060606;
+	border-bottom: 1px solid #20201E;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 32px;
+}
+#perfil{
+	width: 37px;
+	height: 50px;
+} 
+#titulo {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #FFFFFF;
+}
+#hmenu {
+	max-width: 42px;
+	max-height: 42px;
+}
+.banner {
+	height: 383px;
+	background: url("/images/Piano.jpg") no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: center;
+	padding-left: 28px;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: -0.04em;
+	color: #FFFFFF;
+}
+h3 {
+font-family: 'Inter';
+font-style: soft-light;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+.about {
+	height: 521px;
+	background: #080808;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding: 0 24px;
+}
+.about p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 192%;
+text-align: center;
+letter-spacing: -0.025em;
+color: #FFFFFF;
+}
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 375*5;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-frame li {
+	width: 375;
+	height: 281;
+	list-style: none;
+}
+.slider-frame img {
+	width: 100%;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -375px;}
+	40% {margin-left: -375px;}
+	
+	45% {margin-left: -750px;}
+	60% {margin-left: -750px;}
+	
+	65% {margin-left: -1125px;}
+	80% {margin-left: -1125px;}
+
+	85% {margin-left: -1500px;}
+	100% {margin-left: -1500px;}
+}
+.inspiration {
+	height: 375px;
+	background: url("/images/Vitrales2.jpg") no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: center;
+	padding-left: 32px;
+}
+blockquote {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 156.3%;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+footer {
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+}
+h5 {
+	text-align: center;
+}
+.redes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.redes ul {
+	padding: 0;
+}
+.redes li {
+	list-style: none;
+}
+.redes img {
+	padding: 5px;
+}
+footer ul{
+	    padding-inline-start: 0px;
+}
+.copy {
+	flex-flow: row center;
+}
+#logo {
+	max-width: 16px;
+}
