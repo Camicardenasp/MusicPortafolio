@@ -17,11 +17,7 @@ h1 {
 	line-height: 48px;
 	letter-spacing: -0.045em;
 	color: #000000;
-}
-header {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 60px 0 0 20px;
+	
 }
 h2 {
 	/* Who we are */
@@ -35,7 +31,12 @@ h2 {
 	color: #000000;
 	padding: 0 20px;
 }
-#we_are {
+header {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px 0 0 20px;
+}
+.description p {
 	/* We are team of creatively diverse. driven. innovative individuals working in various locations from the world. */
 	font-family: 'Poppins';
 	font-style: normal;
@@ -46,34 +47,26 @@ h2 {
 	padding: 0 20px;
 	max-width: 300px;
 }
+.pic {
+	max-width: 139px;
+}
 .team {
-	display: grid;
-  	grid-template-columns: 1fr 1fr;
-  	grid-template-rows: 1fr 1fr 1fr;
+	display: flex;
+	flex-wrap: wrap;
 }
 .perfil {
 	padding: 20px;
 }
 .par{
-	transform: translate(0px, 50px);
+transform: translate(0px, 50px);
 }
-.pic {
-	max-width: 139px;
-}
-.cargo {	
-	position: absolute;
+.position {	
 	font-family: 'PT Serif';
 	font-size: 10px;
 	text-transform: uppercase;
 	color: #000000;
 	margin: 0px;
-	transform: rotate(90deg) translate(-172px, -120px);
-}
-.uno .cargo {
-	transform: rotate(90deg) translate(-162px, -110px);
-}
-.tres .cargo, .cinco .cargo, .seis .cargo {
-	transform: rotate(90deg) translate(-175px, -125px);
+	transform: rotate(90deg) translate(-138px, -80px);
 }
 .name {
 	/* Bill Mahoney */
@@ -99,7 +92,33 @@ h2 {
 	color: #BDBDBD;
 }
 
-@media only screen and (min-width: 676px) and (max-width: 970px) {
+@media only screen and (min-width: 577px) and (max-width: 875px) {
+	.par{
+	transform: translate(0px, 0px);
+	}
+	.perfil {
+	padding: 40px;
+	}
+	.pic {
+	max-width: 238px;
+	}
+	.position {
+		font-size: 12px;
+		transform: rotate(90deg) translate(-235px, -140px);
+	}
+	.name {
+		font-size: 18px;
+	}
+	.description{
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 876px) and (max-width: 1195px) {
+	body {
+		padding: 0 0 0 200px;
+	}
 	.par{
 	transform: translate(0px, 105px);
 	}
@@ -109,53 +128,9 @@ h2 {
 	.pic {
 	max-width: 238px;
 	}
-	.cargo {
+	.position {
 		font-size: 12px;
-		transform: rotate(90deg) translate(-312px, -215px);
-	}
-	.uno .cargo {
-		transform: rotate(90deg) translate(-298px, -204px);
-	}
-	.tres .cargo, .cinco .cargo, .seis .cargo {
-		transform: rotate(90deg) translate(-315px, -223px);
-	}
-	.name {
-		font-size: 18px;
-	}
-	.description{
-		padding-top: 20px;
-		padding-left: 30px;
-	}
-
-}
-
-@media only screen and (min-width: 971px) and (max-width: 1196px) {
-	.team {
-		display: grid;
-	  	grid-template-columns: 1fr 1fr 1fr;
-	  	grid-template-rows: 1fr 1fr;
-	}
-	.par{
-	transform: translate(0px, 0px);
-	}
-	.medio {
-		transform: translate(0px, 105px);
-	}
-	.perfil {
-	padding: 40px;
-	}
-	.pic {
-	max-width: 238px;
-	}
-	.cargo {
-		font-size: 12px;
-		transform: rotate(90deg) translate(-312px, -215px);
-	}
-	.uno .cargo {
-		transform: rotate(90deg) translate(-298px, -204px);
-	}
-	.tres .cargo, .cinco .cargo, .seis .cargo {
-		transform: rotate(90deg) translate(-315px, -223px);
+		transform: rotate(90deg) translate(-235px, -140px);
 	}
 	.name {
 		font-size: 18px;
@@ -171,11 +146,6 @@ h2 {
 		padding: 0 0 0 200px;
 		max-width: 1510px;
 	}
-	.team {
-		display: grid;
-	  	grid-template-columns: 1fr 1fr 1fr;
-	  	grid-template-rows: 1fr 1fr;
-	}
 	.par{
 	transform: translate(0px, 0px);
 	}
@@ -188,15 +158,9 @@ h2 {
 	.pic {
 	max-width: 238px;
 	}
-	.cargo {
+	.position {
 		font-size: 12px;
-		transform: rotate(90deg) translate(-312px, -215px);
-	}
-	.uno .cargo {
-		transform: rotate(90deg) translate(-298px, -204px);
-	}
-	.tres .cargo, .cinco .cargo, .seis .cargo {
-		transform: rotate(90deg) translate(-315px, -223px);
+		transform: rotate(90deg) translate(-235px, -140px);
 	}
 	.name {
 		font-size: 18px;
